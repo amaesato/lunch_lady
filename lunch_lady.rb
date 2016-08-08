@@ -1,11 +1,4 @@
 require 'pry'
-# BASIC LUNCH ORDER
-# Greeting
-# Lunch Special: Main Dish + two sides + addons
-# Choose from a list of main dishes
-# Choose 2 side dishes
-# Show order
-# Displays lunch total
 
 
 # Different menus
@@ -200,6 +193,7 @@ while true
   puts "\n CHOOSE MAIN DISH:"
     new_order.pick_meal(MAIN)
 
+  puts "\n CHOOSE 2 SIDES"
   2.times do
   puts "\n CHOOSE SIDE DISH:"
     new_order.pick_meal(SIDE)
